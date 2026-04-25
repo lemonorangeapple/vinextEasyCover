@@ -1,4 +1,4 @@
-# EasyCover - AcoFork
+# vinextEasyCover - June_qwq
 
 <img width="1893" alt="EasyCover" src="https://github.com/user-attachments/assets/e8379b3a-2806-4069-ab47-9a7487c1dd82" />
 
@@ -87,5 +87,3 @@ npm run dev
 本项目采用 [AGPL-3.0](LICENSE) 许可证。
 
 ---
-
-Made with ❤️ by AcoFork
