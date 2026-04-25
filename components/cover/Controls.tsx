@@ -925,12 +925,7 @@ export default function Controls() {
          <div className="text-center text-xs text-muted-foreground">
             <a href="https://github.com/lemonorangeapple/vinextEasyCover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
                 <Github className="w-4 h-4" />
-                GitHub 魔改后仓库
-            </a>
-             <p></p>
-             <a href="https://github.com/afoim/easy_cover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
-                <Github className="w-4 h-4" />
-                GitHub 魔改前仓库
+                GitHub 仓库
             </a>
          </div>
       </div>
