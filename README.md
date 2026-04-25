@@ -1,4 +1,5 @@
 # vinextEasyCover - June_qwq
+自[easy_cover - Acofork](https://github.com/afoim/easy_cover)魔改
 
 <img width="1893" alt="EasyCover" src="https://github.com/user-attachments/assets/e8379b3a-2806-4069-ab47-9a7487c1dd82" />
 
