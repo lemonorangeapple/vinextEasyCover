@@ -265,6 +265,7 @@ export default function Controls() {
         </h1>
         <p className="text-xs text-muted-foreground mt-1">
             简单、优雅的纯客户端封面图生成器。无需上传，保护隐私。
+            魔改自<a href="https://github.com/afoim/easy_cover">easy_cover - AcoFork</a>
         </p>
       </div>
       
@@ -924,7 +925,12 @@ export default function Controls() {
          <div className="text-center text-xs text-muted-foreground">
             <a href="https://github.com/lemonorangeapple/vinextEasyCover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
                 <Github className="w-4 h-4" />
-                GitHub 开源仓库
+                GitHub 魔改后仓库
+            </a>
+             <p></p>
+             <a href="https://github.com/afoim/easy_cover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
+                <Github className="w-4 h-4" />
+                GitHub 魔改前仓库
             </a>
          </div>
       </div>
