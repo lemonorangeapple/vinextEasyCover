@@ -261,7 +261,7 @@ export default function Controls() {
     <div className="w-full md:w-80 h-1/2 md:h-full border-t md:border-t-0 md:border-r bg-background flex flex-col shadow-lg z-10">
       <div className="p-4 border-b">
         <h1 className="text-xl font-bold flex items-center gap-2">
-           EasyCover - AcoFork
+           vinextEasyCover - June_qwq
         </h1>
         <p className="text-xs text-muted-foreground mt-1">
             简单、优雅的纯客户端封面图生成器。无需上传，保护隐私。
@@ -922,7 +922,7 @@ export default function Controls() {
          </Button>
          
          <div className="text-center text-xs text-muted-foreground">
-            <a href="https://github.com/afoim/easy_cover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
+            <a href="https://github.com/lemonorangeapple/vinextEasyCover" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-1">
                 <Github className="w-4 h-4" />
                 GitHub 开源仓库
             </a>

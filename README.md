@@ -1,6 +1,6 @@
 # EasyCover - AcoFork
 
-<img width="1893" height="1390" alt="a7db63bb841d2b78d604e2662c50365c" src="https://github.com/user-attachments/assets/e8379b3a-2806-4069-ab47-9a7487c1dd82" />
+<img width="1893" alt="EasyCover" src="https://github.com/user-attachments/assets/e8379b3a-2806-4069-ab47-9a7487c1dd82" />
 
 简单、优雅的封面图生成工具。纯客户端运行，保护您的隐私。
 
@@ -18,7 +18,8 @@
 
 ## 🛠️ 技术栈
 
-*   [Next.js](https://nextjs.org/) - React 框架
+*   [React](https://react.dev/) - 前端框架
+*   [Vite](https://vitejs.dev/) - 构建工具
 *   [Tailwind CSS](https://tailwindcss.com/) - 样式引擎
 *   [Shadcn/ui](https://ui.shadcn.com/) - UI 组件库
 *   [Zustand](https://github.com/pmndrs/zustand) - 状态管理
@@ -62,15 +63,16 @@ npm run dev
 
 ## 📦 部署
 
-本项目已配置为静态导出 (`output: 'export'`)，可轻松部署到任何静态托管服务。
+本项目使用 Vite 构建，可轻松部署到任何静态托管服务。
 
 ### Vercel 部署
 
 1.  Fork 本仓库。
 2.  在 Vercel 中导入项目。
-3.  Vercel 会自动识别 Next.js 项目。
-4.  **重要**：确保构建命令为 `npm run build` (默认)，输出目录默认为 `out` (Next.js 静态导出默认目录)。
-    *   注：本项目已在 `next.config.ts` 中启用了 `output: 'export'`，Vercel 会自动处理，无需额外配置。
+3.  设置环境变量和构建命令：
+    *   构建命令: `npm run build`
+    *   输出目录: `dist`
+4.  Vercel 会自动完成部署。
 
 ### GitHub Pages 部署
 
@@ -78,7 +80,7 @@ npm run dev
     ```bash
     npm run build
     ```
-2.  将生成的 `out` 目录内容推送到 `gh-pages` 分支。
+2.  将生成的 `dist` 目录内容推送到 `gh-pages` 分支。
 
 ## 📄 许可证
 
